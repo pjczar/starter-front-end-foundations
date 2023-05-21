@@ -12,30 +12,22 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-   <body>
+  <body>
     <main>
-      <form action="" method="get" class="form-example">
-        <div class="form-example">
-          <label for="name">Enter your name: </label>
-          <input type="text" name="name" id="name" required>
+         <form>
+        <div>
+          <label for="name">Name:</label>
+        <input id="name" type="text" name="name" />
         </div>
-        <div class="form-example">
-          <label for="email">Enter your email: </label>
-          <input type="email" name="email" id="email" required>
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" type="text" />
         </div>
-        <div class="form-example">
+        <div>
           <label for="form-message">Your message:</label>
-          <textarea
-            id="form-message"
-            name="message"
-            autofocus="on"
-            required
-            maxlength="200"
-          ></textarea>
+          <textarea id="form-message" name="message"></textarea>
         </div>
-        <div class="form-example">
-          <input type="submit" value="Submit">
-        </div>
+        <button type="submit">Submit</button>
       </form>
     </main>
   </body>
